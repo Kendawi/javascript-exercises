@@ -11,14 +11,14 @@ const sumAll = function(min,max) {
         max = temp;
     }
 
-    let total = 0;
+    let sum = 0;
 
     for (let i = min; i <= max; i++) {
 
-        total += i;
+        sum += i;
     }
 
-    return total;
+    return sum;
 };
 
 // Do not edit below this line
